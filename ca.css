@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.contanier {
+  width: 31%;
+  height: 455px;
+  background-color: hsl(205deg 9% 26%);
+  margin-left: 29%;
+  margin-top: 84px;
+  border-radius: 21px;
+}
+.formdiv {
+  margin-left: 7%;
+}
+.input {
+  width: 88%;
+  height: 56px;
+  box-shadow: 1px -1px 0px 2px black inset;
+  margin-top: 30px;
+  background-color: hsl(79deg 35% 70%);
+  font-size: 20px;
+  color: red;
+}
+.input::placeholder {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.buttondiv {
+  line-height: 3;
+  width: 95%;
+  margin-top: 17px;
+}
+
+.textdiv {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(165deg 4% 18%);
+  border: none;
+  border-radius: 13px;
+  color: #fff;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.textdiv1 {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(165deg 4% 18%);
+  border: none;
+  border-radius: 13px;
+  box-shadow: 1px 1px 1px 1px black;
+  margin-left: 30px;
+  color: #fff;
+}
+.textdiv0 {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(165deg 3% 44%);
+  border: none;
+  border-radius: 13px;
+  color: #fff;
+  box-shadow: 0px 1px 1px 0px black;
+}
+.textdiv2 {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(165deg 3% 44%);
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0px 1px 1px 0px black;
+  margin-left: 30px;
+  color: #fff;
+}
+#textdiv2 {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(350deg 93% 62%);
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0px 1px 1px 0px black;
+  margin-left: 30px;
+  color: #000;
+}
+#textdiv1 {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(350deg 93% 62%);
+  border: none;
+  border-radius: 13px;
+  box-shadow: 1px 1px 1px 1px black;
+  margin-left: 30px;
+  color: #000;
+}
+#textdiv3 {
+  width: 18%;
+  height: 45px;
+  font-size: 16px;
+  background-color: hsl(31deg 99% 59%);
+  border: none;
+  border-radius: 13px;
+  box-shadow: 1px 1px 1px 1px black;
+  margin-left: 30px;
+  color: #000;
+}
