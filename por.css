@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.continar {
+  width: 100%;
+}
+.maindiv {
+  width: 100%;
+  display: flex;
+}
+.header {
+  width: 15%;
+  margin-left: 5%;
+}
+.heading {
+  letter-spacing: 0.8px;
+  text-align-last: center;
+  text-transform: capitalize;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+.headingspan {
+  color: #dc143c;
+}
+.navbar {
+  width: 65%;
+}
+.navbar ul {
+  margin-top: 3%;
+  margin-left: 10%;
+  list-style: none;
+  display: flex;
+  font-size: 1.2rem;
+}
+.navbar ul li {
+  margin-left: 50px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+.navbar ul li a:hover {
+  color: #dc143c;
+}
+.buttondiv {
+  width: 20%;
+  text-align-last: center;
+}
+.divbutton {
+  background-color: #dc143c;
+  color: white;
+  width: 51%;
+  border: none;
+  height: 50px;
+  border-radius: 11px;
+  margin-top: 15px;
+}
