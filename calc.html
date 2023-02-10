@@ -5,27 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>This my</title>
+    <link rel="stylesheet" href="" />
     <link rel="stylesheet" href="ca.css" />
   </head>
   <body>
-    <div class="continar">
-      <div>
-        <div>
-          <h1>portf0<span>lio</span></h1>
-        </div>
-        <div>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
-        </div>
-        <div>
-          <button>Subscribe</button>
-        </div>
-      </div>
-    </div>
+    <!-- <input class="ab" type="text" />
+    <input class="ab" type="text" />
+    <input class="ab" type="text" />
+    <input class="ab" type="text" />
+    <input class="ab" type="text" /> -->
+    <input type="text" />
+    <button class="bc">click</button>
+
+    <!-- <button class="bc">Subscribe</button> -->
+    <script>
+      // document.getElementById("bc").onclick = function () {
+      //   let a = document.getElementById("ab").value;
+      //   for (var i = 0; i < a; i++) {
+      //     if (i >= 12 && i <= 17) {
+      //       continue;
+      //     } else {
+      //       console.log(i);
+      //     }
+      //   }
+      // };
+    
+      var fruits = [];
+      document.getElementsByClassName("bc")[0].onclick = function () {
+        // for (let i = 0; i < 5; i++) {
+        //   let a = document.getElementsByClassName("ab")[i].value;
+        //  document.getElementsByClassName("ab")[i].value = "";
+        //  document.getElementsByClassName("ab")[0].focus();
+
+        // let a = document.querySelectorAll("input");
+
+        // a.forEach(function (ajay) {
+        //   console.log(ajay.value);
+        // });
+        //  let b= document.querySelector("input").value;
+        //   console.log(b);
+
+        let a = document.querySelector("input").value;
+        document.querySelector("input").value = "";
+        document.querySelector("input").focus();
+
+        fruits.push(a);
+
+        console.log(fruits);
+        console.log(a.length);
+      };
+      // };
+    </script>
   </body>
 </html>

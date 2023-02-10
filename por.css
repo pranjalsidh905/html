@@ -7,7 +7,9 @@ body {
   width: 100%;
   background-image: url(home-bg.jpg);
   color: #967252;
-  height: 665px;
+ 
+  height: 658px;
+
   background-size: cover;
 }
 .maindiv {
@@ -214,13 +216,15 @@ body {
 .container3 {
   width: 100%;
   clear: both;
-  height: 500px;
+  height: 714px;
   background-color: #dddfeb;
 }
 .procss {
   width: 50%;
   margin-left: 26%;
   text-align: center;
+  position: relative;
+  top: 21%;
 }
 .titleprocess {
   color: #525252;
@@ -229,4 +233,76 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   letter-spacing: 3px;
+}
+.titlespan {
+  font-weight: normal;
+  font-family: system-ui;
+  text-transform: capitalize;
+  position: relative;
+  bottom: 16px;
+  color: #6f6e71;
+}
+.fulldivbox {
+  display: flex;
+}
+.procebox1 {
+  width: 20%;
+  height: 264px;
+  background-color: #10c6fc;
+  margin-top: 16%;
+  margin-left: 9%;
+}
+.procebox1:hover {
+  background-color: #2d6879;
+}
+.procebox2 {
+  width: 20%;
+  height: 264px;
+  margin-top: 16%;
+  margin-left: 1%;
+  background-color: #835aeb;
+}
+.procebox2:hover {
+  background-color: #6b647c;
+}
+
+.procebox3 {
+  width: 20%;
+  height: 264px;
+  margin-top: 16%;
+  margin-left: 1%;
+  background-color: #002453;
+}
+.procebox3:hover {
+  background-color: #64cbc0;
+}
+.procebox4 {
+  width: 20%;
+  height: 264px;
+  margin-top: 16%;
+  margin-left: 1%;
+  background-color: #ff2b4a;
+}
+.procebox4:hover {
+  background-color: #222222;
+}
+.box1_a {
+  margin-left: 113px;
+}
+.fa {
+  margin-top: 23%;
+  font-size: 37px;
+  color: #fff;
+}
+.namepr {
+  margin-top: 24%;
+  margin-left: 37%;
+  font-size: 20px;
+  color: #fff;
+}
+#namepr {
+  margin-top: 24%;
+  margin-left: 26%;
+  font-size: 20px;
+  color: #fff;
 }
