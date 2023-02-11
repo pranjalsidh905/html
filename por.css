@@ -7,7 +7,7 @@ body {
   width: 100%;
   background-image: url(home-bg.jpg);
   color: #967252;
- 
+
   height: 658px;
 
   background-size: cover;
@@ -305,4 +305,67 @@ body {
   margin-left: 26%;
   font-size: 20px;
   color: #fff;
+}
+.container4 {
+  width: 100%;
+}
+.services {
+  width: 50%;
+  text-align: center;
+  margin-left: 23%;
+}
+.heading1services {
+  font-size: 21px;
+  text-transform: capitalize;
+  font-family: "Raleway";
+  color: #aba8a8;
+  position: relative;
+  top: 35px;
+}
+.heading2services {
+  text-transform: capitalize;
+  margin-top: 7%;
+}
+.headingserh1 {
+  font-size: 3em;
+  font-family: "Raleway";
+  color: #5e5a5a;
+}
+.servicfull {
+  display: flex;
+  width: 100%;
+}
+.service1 {
+  width: 45%;
+}
+.fulldivserv {
+  width: 71%;
+  display: flex;
+  margin-left: 22%;
+}
+.servicebox_1 {
+  width: 30%;
+  height: 141px;
+  border: 1px solid #ef233c;
+}
+.new {
+  margin-left: 31px;
+  font-size: 70px;
+  color: #ef233c;
+  transition: 3s;
+}
+.servicebox_2 {
+  width: 70%;
+  margin-left: 23px;
+}
+.servicebox_2_h4 {
+  font-size: 25px;
+  font-weight: revert;
+  text-transform: capitalize;
+  line-height: 0;
+  color: #383838;
+}
+.servicebox_2_p {
+  font-size: 19px;
+  color: #686565;
 }
