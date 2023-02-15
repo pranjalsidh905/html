@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .contenair {
+        width: 1000px;
+        height: 500px;
+        margin: auto;
+        border: 2px solid black;
+        position: relative;
+        overflow: hidden;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 3s;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #a {
+        left: 0%;
+      }
+      #a1 {
+        left: 100%;
+      }
+      #a2 {
+        left: 200%;
+      }
+
+      #a3 {
+        left: 300%;
+      }
+      .conatiner-2 {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .conatiner-2 button {
+        font-size: 30px;
+      }
+
+      .conatiner-2 button:hover {
+        cursor: pointer;
+        background-color: palevioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenair">
+      <img id="a" src="pexels-element-digital-712319.jpg" alt="worng" />
+
+      <img id="a1" src="pexels-martí-pardo-1646753.jpg" alt="worng" />
+
+      <img id="a2" src="pexels-rahul-716398.jpg" alt="worng" />
+
+      <img id="a3" src="pexels-oziel-gómez-845405.jpg" alt="worng" />
+    </div>
+
+    <div class="conatiner-2">
+      <button onclick="Prev()">Prev</button>
+      <button onclick="Next()">Next</button>
+    </div>
+
+    <script>
+      var b = document.querySelectorAll("img");
+
+      var counter = 0;
+
+      b.forEach((a, c) => {
+        a.style.left = `${c * 100}%`;
+      });
+
+      const Next = function () {
+        counter++;
+        slideImage();
+      };
+
+      const Prev = () => {
+        counter--;
+        slideImage();
+      };
+
+      const slideImage = () => {
+        b.forEach((a) => {
+          a.style.transform = `translateX(-${counter * 100}%)`;
+          console.log(a);
+        });
+      };
+    </script>
+  </body>
+</html>
