@@ -2,9 +2,24 @@ body {
   margin: 0;
   padding: 0;
 }
+/* }
 .container {
   border: 2px solid black;
 }
 .bo1 {
   border: 2px solid burlywood;
+} */
+.logodiv {
+  width: 100%;
+}
+img {
+  width: 100px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
 }
