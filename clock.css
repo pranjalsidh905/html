@@ -4,17 +4,18 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  padding: 0 10px;
-  min-height: 100vh;
-  background: #4a98f7;
-}
-body.wrapper,
-.content {
+body,.wrapper,.content
+ {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+body {
+  padding: 0 10px;
+  min-height: 100vh;
+  background: #4A98f7;
+}
+
 .wrapper {
   width: 440px;
   padding: 30px 30px 38px;
@@ -38,7 +39,7 @@ body.wrapper,
 .content.disable {
   cursor: no-drop;
 }
-.content .column {
+.content.column {
   padding: 0 10px;
   border-radius: 5px;
   border: 1px solid #bfbfbf;
