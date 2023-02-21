@@ -36,7 +36,8 @@
         content = document.querySelector(".content"),
         selectMenu = document.querySelectorAll("select"),
         setAlarmBtn = document.querySelector("button");
-      let alarmTime,isAlarmSet,
+      let alarmTime,
+        isAlarmSet,
         ringtone = new Audio("ringtone.mp3");
       for (let i = 12; i > 0; i--) {
         i = i < 10 ? `0${i}` : i;
@@ -58,12 +59,12 @@
           h = date.getHours(),
           m = date.getMinutes(),
           s = date.getSeconds(),
-          ampam = "AM";
+          ampm = "AM";
         if (h >= 12) {
           h = h - 12;
           ampm = "PM";
         }
-        h = h == 0 ? h = 12  : h;
+        h = h == 0 ? (h = 12) : h;
         h = h < 10 ? "0" + h : h;
         m = m < 10 ? "0" + m : m;
         s = s < 10 ? "0" + s : s;

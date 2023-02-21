@@ -57,3 +57,40 @@ body {
   font-size: 3.7rem;
   line-height: 1;
 }
+.normal_text {
+  width: 80%;
+  margin-top: 24px;
+}
+.normal_text p {
+  text-align: justify;
+  color: #d5d3d3;
+}
+.deteli {
+  position: relative;
+  top: 17px;
+  color: #fff;
+  font-size: 19px;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.deteli:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.section1 {
+  margin-top: 12%;
+}
+
+.second_box {
+  margin-left: 9%;
+  width: 96%;
+}
+.second_box_img1 {
+  width: 100%;
+}
+.second_box2 {
+  color: #c4e5f6;
+  font-size: 46px;
+  font-weight: 500;
+}
